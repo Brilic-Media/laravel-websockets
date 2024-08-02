@@ -1,10 +1,10 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\API;
+namespace Oskonnikov\LaravelWebSockets\API;
 
-use BeyondCode\LaravelWebSockets\Apps\App;
-use BeyondCode\LaravelWebSockets\Contracts\ChannelManager;
-use BeyondCode\LaravelWebSockets\Server\QueryParameters;
+use Oskonnikov\LaravelWebSockets\Apps\App;
+use Oskonnikov\LaravelWebSockets\Contracts\ChannelManager;
+use Oskonnikov\LaravelWebSockets\Server\QueryParameters;
 use Exception;
 use GuzzleHttp\Psr7\Message;
 use GuzzleHttp\Psr7\Response;
@@ -49,7 +49,7 @@ abstract class Controller implements HttpServerInterface
     /**
      * The channel manager.
      *
-     * @var \BeyondCode\LaravelWebSockets\Contracts\ChannelManager
+     * @var \Oskonnikov\LaravelWebSockets\Contracts\ChannelManager
      */
     protected $channelManager;
 

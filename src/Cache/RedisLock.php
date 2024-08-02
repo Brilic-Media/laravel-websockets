@@ -1,6 +1,6 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Cache;
+namespace Oskonnikov\LaravelWebSockets\Cache;
 
 use Clue\React\Redis\Client;
 use Illuminate\Cache\LuaScripts;

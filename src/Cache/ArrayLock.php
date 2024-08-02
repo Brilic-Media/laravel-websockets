@@ -1,8 +1,8 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Cache;
+namespace Oskonnikov\LaravelWebSockets\Cache;
 
-use BeyondCode\LaravelWebSockets\Helpers;
+use Oskonnikov\LaravelWebSockets\Helpers;
 use Illuminate\Cache\ArrayLock as LaravelLock;
 use React\Promise\PromiseInterface;
 

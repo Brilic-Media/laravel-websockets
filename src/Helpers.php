@@ -1,6 +1,6 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets;
+namespace Oskonnikov\LaravelWebSockets;
 
 use React\Promise\PromiseInterface;
 

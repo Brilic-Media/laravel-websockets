@@ -1,14 +1,14 @@
 {
-    "name": "beyondcode/laravel-websockets",
+    "name": "oskonnikov/laravel-websockets",
     "description": "An easy to launch a Pusher-compatible WebSockets server for Laravel.",
     "keywords": [
-        "beyondcode",
+        "oskonnikov",
         "laravel-websockets",
         "laravel",
         "php"
     ],
     "license": "MIT",
-    "homepage": "https://github.com/beyondcode/laravel-websockets",
+    "homepage": "https://github.com/oskonnikov/laravel-websockets",
     "authors": [
         {
             "name": "Marcel Pociot",
@@ -63,12 +63,12 @@
     },
     "autoload": {
         "psr-4": {
-            "BeyondCode\\LaravelWebSockets\\": "src/"
+            "Oskonnikov\\LaravelWebSockets\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BeyondCode\\LaravelWebSockets\\Test\\": "tests"
+            "Oskonnikov\\LaravelWebSockets\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -82,10 +82,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "BeyondCode\\LaravelWebSockets\\WebSocketsServiceProvider"
+                "Oskonnikov\\LaravelWebSockets\\WebSocketsServiceProvider"
             ],
             "aliases": {
-                "WebSocketRouter": "BeyondCode\\LaravelWebSockets\\Facades\\WebSocketRouter"
+                "WebSocketRouter": "Oskonnikov\\LaravelWebSockets\\Facades\\WebSocketRouter"
             }
         }
     }

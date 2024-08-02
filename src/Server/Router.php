@@ -1,8 +1,8 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Server;
+namespace Oskonnikov\LaravelWebSockets\Server;
 
-use BeyondCode\LaravelWebSockets\Server\Loggers\WebSocketsLogger;
+use Oskonnikov\LaravelWebSockets\Server\Loggers\WebSocketsLogger;
 use Illuminate\Support\Collection;
 use Ratchet\WebSocket\MessageComponentInterface;
 use Ratchet\WebSocket\WsServer;
