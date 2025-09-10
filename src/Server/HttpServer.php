@@ -1,6 +1,6 @@
 <?php
 
-namespace Oskonnikov\LaravelWebSockets\Server;
+namespace Longriders\LaravelWebSockets\Server;
 
 use Ratchet\Http\HttpServer as BaseHttpServer;
 use Ratchet\Http\HttpServerInterface;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Oskonnikov\LaravelWebSockets\API;
+namespace Longriders\LaravelWebSockets\API;
 
-use Oskonnikov\LaravelWebSockets\Channels\Channel;
+use Longriders\LaravelWebSockets\Channels\Channel;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use stdClass;

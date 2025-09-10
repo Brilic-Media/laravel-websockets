@@ -1,8 +1,8 @@
 <?php
 
-namespace Oskonnikov\LaravelWebSockets\Server\Messages;
+namespace Longriders\LaravelWebSockets\Server\Messages;
 
-use Oskonnikov\LaravelWebSockets\Events\ConnectionPonged;
+use Longriders\LaravelWebSockets\Events\ConnectionPonged;
 use Illuminate\Support\Str;
 use Ratchet\ConnectionInterface;
 use stdClass;

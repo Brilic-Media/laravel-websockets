@@ -1,8 +1,8 @@
 <?php
 
-namespace Oskonnikov\LaravelWebSockets\Server;
+namespace Longriders\LaravelWebSockets\Server;
 
-use Oskonnikov\LaravelWebSockets\Server\Loggers\WebSocketsLogger;
+use Longriders\LaravelWebSockets\Server\Loggers\WebSocketsLogger;
 use Illuminate\Support\Collection;
 use Ratchet\WebSocket\MessageComponentInterface;
 use Ratchet\WebSocket\WsServer;

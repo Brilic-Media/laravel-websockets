@@ -1,6 +1,6 @@
 <?php
 
-namespace Oskonnikov\LaravelWebSockets\Cache;
+namespace Longriders\LaravelWebSockets\Cache;
 
 use Illuminate\Support\Str;
 use React\Promise\PromiseInterface;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Oskonnikov\LaravelWebSockets\Apps;
+namespace Longriders\LaravelWebSockets\Apps;
 
-use Oskonnikov\LaravelWebSockets\Contracts\AppManager;
+use Longriders\LaravelWebSockets\Contracts\AppManager;
 use React\Promise\PromiseInterface;
 
 class App

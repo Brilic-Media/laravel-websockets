@@ -1,6 +1,6 @@
 <?php
 
-namespace Oskonnikov\LaravelWebSockets\Server\Loggers;
+namespace Longriders\LaravelWebSockets\Server\Loggers;
 
 use Ratchet\ConnectionInterface;
 

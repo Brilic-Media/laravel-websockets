@@ -1,6 +1,6 @@
 <?php
 
-namespace Oskonnikov\LaravelWebSockets\Models;
+namespace Longriders\LaravelWebSockets\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

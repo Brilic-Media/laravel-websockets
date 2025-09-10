@@ -1,6 +1,6 @@
 <?php
 
-namespace Oskonnikov\LaravelWebSockets\Console\Commands;
+namespace Longriders\LaravelWebSockets\Console\Commands;
 
 use BeyondCode\LaravelWebSockets\Facades\StatisticsStore;
 use Illuminate\Console\Command;

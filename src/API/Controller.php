@@ -1,10 +1,10 @@
 <?php
 
-namespace Oskonnikov\LaravelWebSockets\API;
+namespace Longriders\LaravelWebSockets\API;
 
-use Oskonnikov\LaravelWebSockets\Apps\App;
-use Oskonnikov\LaravelWebSockets\Contracts\ChannelManager;
-use Oskonnikov\LaravelWebSockets\Server\QueryParameters;
+use Longriders\LaravelWebSockets\Apps\App;
+use Longriders\LaravelWebSockets\Contracts\ChannelManager;
+use Longriders\LaravelWebSockets\Server\QueryParameters;
 use Exception;
 use GuzzleHttp\Psr7\Message;
 use GuzzleHttp\Psr7\Response;
@@ -49,7 +49,7 @@ abstract class Controller implements HttpServerInterface
     /**
      * The channel manager.
      *
-     * @var \Oskonnikov\LaravelWebSockets\Contracts\ChannelManager
+     * @var \Longriders\LaravelWebSockets\Contracts\ChannelManager
      */
     protected $channelManager;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Oskonnikov\LaravelWebSockets;
+namespace Longriders\LaravelWebSockets;
 
-use Oskonnikov\LaravelWebSockets\Server\HttpServer;
-use Oskonnikov\LaravelWebSockets\Server\Loggers\HttpLogger;
+use Longriders\LaravelWebSockets\Server\HttpServer;
+use Longriders\LaravelWebSockets\Server\Loggers\HttpLogger;
 use Ratchet\Http\Router;
 use Ratchet\Server\IoServer;
 use React\EventLoop\Factory as LoopFactory;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Oskonnikov\LaravelWebSockets\Queue;
+namespace Longriders\LaravelWebSockets\Queue;
 
 use Illuminate\Queue\Connectors\RedisConnector;
 

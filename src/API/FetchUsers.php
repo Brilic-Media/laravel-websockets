@@ -1,6 +1,6 @@
 <?php
 
-namespace Oskonnikov\LaravelWebSockets\API;
+namespace Longriders\LaravelWebSockets\API;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;

@@ -1,10 +1,10 @@
 <?php
 
-namespace Oskonnikov\LaravelWebSockets\Server\Messages;
+namespace Longriders\LaravelWebSockets\Server\Messages;
 
-use Oskonnikov\LaravelWebSockets\Contracts\ChannelManager;
-use Oskonnikov\LaravelWebSockets\Contracts\PusherMessage;
-use Oskonnikov\LaravelWebSockets\DashboardLogger;
+use Longriders\LaravelWebSockets\Contracts\ChannelManager;
+use Longriders\LaravelWebSockets\Contracts\PusherMessage;
+use Longriders\LaravelWebSockets\DashboardLogger;
 use Illuminate\Support\Str;
 use Ratchet\ConnectionInterface;
 use stdClass;

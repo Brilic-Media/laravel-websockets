@@ -1,6 +1,6 @@
 <?php
 
-namespace Oskonnikov\LaravelWebSockets\Server\Exceptions;
+namespace Longriders\LaravelWebSockets\Server\Exceptions;
 
 use Exception;
 

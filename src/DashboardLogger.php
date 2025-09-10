@@ -1,8 +1,8 @@
 <?php
 
-namespace Oskonnikov\LaravelWebSockets;
+namespace Longriders\LaravelWebSockets;
 
-use Oskonnikov\LaravelWebSockets\Contracts\ChannelManager;
+use Longriders\LaravelWebSockets\Contracts\ChannelManager;
 
 class DashboardLogger
 {

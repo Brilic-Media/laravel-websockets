@@ -1,6 +1,6 @@
 <?php
 
-namespace Oskonnikov\LaravelWebSockets\Server;
+namespace Longriders\LaravelWebSockets\Server;
 
 use Ratchet\ConnectionInterface;
 use stdClass;

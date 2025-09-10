@@ -1,8 +1,8 @@
 <?php
 
-namespace Oskonnikov\LaravelWebSockets\Queue;
+namespace Longriders\LaravelWebSockets\Queue;
 
-use Oskonnikov\LaravelWebSockets\Contracts\ChannelManager;
+use Longriders\LaravelWebSockets\Contracts\ChannelManager;
 use Illuminate\Queue\RedisQueue;
 
 class AsyncRedisQueue extends RedisQueue
@@ -10,7 +10,7 @@ class AsyncRedisQueue extends RedisQueue
     /**
      * Get the connection for the queue.
      *
-     * @return \Oskonnikov\LaravelWebSockets\Contracts\ChannelManager|\Illuminate\Redis\Connections\Connection
+     * @return \Longriders\LaravelWebSockets\Contracts\ChannelManager|\Illuminate\Redis\Connections\Connection
      */
     public function getConnection()
     {
