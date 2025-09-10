@@ -1,10 +1,10 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Test\Apps;
+namespace Longriders\LaravelWebSockets\Test\Apps;
 
-use BeyondCode\LaravelWebSockets\Apps\App;
-use BeyondCode\LaravelWebSockets\Apps\SQLiteAppManager;
-use BeyondCode\LaravelWebSockets\Contracts\AppManager;
+use Longriders\LaravelWebSockets\Apps\App;
+use Longriders\LaravelWebSockets\Apps\SQLiteAppManager;
+use Longriders\LaravelWebSockets\Contracts\AppManager;
 use BeyondCode\LaravelWebSockets\Test\TestCase;
 
 class SqliteAppManagerTest extends TestCase

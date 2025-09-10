@@ -1,9 +1,9 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Dashboard\Http\Controllers;
+namespace Longriders\LaravelWebSockets\Dashboard\Http\Controllers;
 
-use BeyondCode\LaravelWebSockets\Apps\App;
-use BeyondCode\LaravelWebSockets\Concerns\PushesToPusher;
+use Longriders\LaravelWebSockets\Apps\App;
+use Longriders\LaravelWebSockets\Concerns\PushesToPusher;
 use Illuminate\Broadcasting\Broadcasters\PusherBroadcaster;
 use Illuminate\Http\Request;
 use React\EventLoop\LoopInterface;

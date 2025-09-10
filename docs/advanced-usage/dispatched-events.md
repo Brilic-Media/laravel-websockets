@@ -13,10 +13,10 @@ For example, you can listen for events like when a new connection establishes or
 
 Below you will find a list of dispatched events:
 
-- `BeyondCode\LaravelWebSockets\Events\NewConnection` - when a connection successfully establishes on the server
-- `BeyondCode\LaravelWebSockets\Events\ConnectionClosed` - when a connection leaves the server
-- `BeyondCode\LaravelWebSockets\Events\SubscribedToChannel` - when a connection subscribes to a specific channel
-- `BeyondCode\LaravelWebSockets\Events\UnsubscribedFromChannel` - when a connection unsubscribes from a specific channel
+- `Longriders\LaravelWebSockets\Events\NewConnection` - when a connection successfully establishes on the server
+- `Longriders\LaravelWebSockets\Events\ConnectionClosed` - when a connection leaves the server
+- `Longriders\LaravelWebSockets\Events\SubscribedToChannel` - when a connection subscribes to a specific channel
+- `Longriders\LaravelWebSockets\Events\UnsubscribedFromChannel` - when a connection unsubscribes from a specific channel
 - `BeyondCode\LaravelWebSockets\Events\WebSocketMessageReceived` - when the server receives a message
 - `BeyondCode\LaravelWebSockets\EventsConnectionPonged` - when a connection pings to the server that it is still alive
 

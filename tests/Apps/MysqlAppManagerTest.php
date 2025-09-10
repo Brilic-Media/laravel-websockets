@@ -1,11 +1,11 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Test\Apps;
+namespace Longriders\LaravelWebSockets\Test\Apps;
 
-use BeyondCode\LaravelWebSockets\Apps\App;
-use BeyondCode\LaravelWebSockets\Apps\MysqlAppManager;
-use BeyondCode\LaravelWebSockets\Contracts\AppManager;
-use BeyondCode\LaravelWebSockets\Test\TestCase;
+use Longriders\LaravelWebSockets\Apps\App;
+use Longriders\LaravelWebSockets\Apps\MysqlAppManager;
+use Longriders\LaravelWebSockets\Contracts\AppManager;
+use Longriders\LaravelWebSockets\Test\TestCase;
 
 class MysqlAppManagerTest extends TestCase
 {

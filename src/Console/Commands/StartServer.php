@@ -1,13 +1,13 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Console\Commands;
+namespace Longriders\LaravelWebSockets\Console\Commands;
 
-use BeyondCode\LaravelWebSockets\Contracts\ChannelManager;
-use BeyondCode\LaravelWebSockets\Facades\StatisticsCollector as StatisticsCollectorFacade;
-use BeyondCode\LaravelWebSockets\Facades\WebSocketRouter;
-use BeyondCode\LaravelWebSockets\Server\Loggers\ConnectionLogger;
-use BeyondCode\LaravelWebSockets\Server\Loggers\HttpLogger;
-use BeyondCode\LaravelWebSockets\Server\Loggers\WebSocketsLogger;
+use Longriders\LaravelWebSockets\Contracts\ChannelManager;
+use Longriders\LaravelWebSockets\Facades\StatisticsCollector as StatisticsCollectorFacade;
+use Longriders\LaravelWebSockets\Facades\WebSocketRouter;
+use Longriders\LaravelWebSockets\Server\Loggers\ConnectionLogger;
+use Longriders\LaravelWebSockets\Server\Loggers\HttpLogger;
+use Longriders\LaravelWebSockets\Server\Loggers\WebSocketsLogger;
 use BeyondCode\LaravelWebSockets\ServerFactory;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Cache;

@@ -1,6 +1,6 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Test;
+namespace Longriders\LaravelWebSockets\Test;
 
 class StatisticsStoreTest extends TestCase
 {

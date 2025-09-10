@@ -1,8 +1,8 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Dashboard\Http\Controllers;
+namespace Longriders\LaravelWebSockets\Dashboard\Http\Controllers;
 
-use BeyondCode\LaravelWebSockets\Facades\StatisticsStore;
+use Longriders\LaravelWebSockets\Facades\StatisticsStore;
 use Illuminate\Http\Request;
 
 class ShowStatistics

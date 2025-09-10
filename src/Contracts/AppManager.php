@@ -1,8 +1,8 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Contracts;
+namespace Longriders\LaravelWebSockets\Contracts;
 
-use BeyondCode\LaravelWebSockets\Apps\App;
+use Longriders\LaravelWebSockets\Apps\App;
 use React\Promise\PromiseInterface;
 
 interface AppManager

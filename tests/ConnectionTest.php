@@ -1,8 +1,8 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Test;
+namespace Longriders\LaravelWebSockets\Test;
 
-use BeyondCode\LaravelWebSockets\Server\Exceptions\UnknownAppKey;
+use Longriders\LaravelWebSockets\Server\Exceptions\UnknownAppKey;
 
 class ConnectionTest extends TestCase
 {

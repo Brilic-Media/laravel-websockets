@@ -1,8 +1,8 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Test;
+namespace Longriders\LaravelWebSockets\Test;
 
-use BeyondCode\LaravelWebSockets\Server\HealthHandler;
+use Longriders\LaravelWebSockets\Server\HealthHandler;
 use Illuminate\Support\Str;
 
 class HealthTest extends TestCase

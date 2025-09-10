@@ -1,6 +1,6 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Contracts;
+namespace Longriders\LaravelWebSockets\Contracts;
 
 use React\Promise\PromiseInterface;
 
@@ -63,7 +63,7 @@ interface StatisticsCollector
      * Get the saved statistics for an app.
      *
      * @param  string|int  $appId
-     * @return PromiseInterface[\BeyondCode\LaravelWebSockets\Statistics\Statistic|null]
+     * @return PromiseInterface[\Longriders\LaravelWebSockets\Statistics\Statistic|null]
      */
     public function getAppStatistics($appId): PromiseInterface;
 

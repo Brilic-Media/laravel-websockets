@@ -1,8 +1,8 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Test\Mocks;
+namespace Longriders\LaravelWebSockets\Test\Mocks;
 
-use BeyondCode\LaravelWebSockets\Helpers;
+use Longriders\LaravelWebSockets\Helpers;
 use Clue\React\Block;
 use React\EventLoop\LoopInterface;
 use React\Promise\FulfilledPromise;

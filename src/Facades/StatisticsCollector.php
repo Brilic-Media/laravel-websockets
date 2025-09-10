@@ -1,8 +1,8 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Facades;
+namespace Longriders\LaravelWebSockets\Facades;
 
-use BeyondCode\LaravelWebSockets\Contracts\StatisticsCollector as StatisticsCollectorInterface;
+use Longriders\LaravelWebSockets\Contracts\StatisticsCollector as StatisticsCollectorInterface;
 use Illuminate\Support\Facades\Facade;
 
 class StatisticsCollector extends Facade

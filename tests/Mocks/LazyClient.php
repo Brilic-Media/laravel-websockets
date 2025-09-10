@@ -1,6 +1,6 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Test\Mocks;
+namespace Longriders\LaravelWebSockets\Test\Mocks;
 
 use Clue\React\Redis\Factory;
 use Clue\React\Redis\LazyClient as BaseLazyClient;

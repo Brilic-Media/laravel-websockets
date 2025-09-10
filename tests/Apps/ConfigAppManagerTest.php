@@ -1,11 +1,11 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Test\Apps;
+namespace Longriders\LaravelWebSockets\Test\Apps;
 
-use BeyondCode\LaravelWebSockets\Apps\App;
-use BeyondCode\LaravelWebSockets\Apps\ConfigAppManager;
-use BeyondCode\LaravelWebSockets\Contracts\AppManager;
-use BeyondCode\LaravelWebSockets\Test\TestCase;
+use Longriders\LaravelWebSockets\Apps\App;
+use Longriders\LaravelWebSockets\Apps\ConfigAppManager;
+use Longriders\LaravelWebSockets\Contracts\AppManager;
+use Longriders\LaravelWebSockets\Test\TestCase;
 
 class ConfigAppManagerTest extends TestCase
 {

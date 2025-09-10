@@ -2,7 +2,7 @@
 
 namespace Longriders\LaravelWebSockets\Console\Commands;
 
-use BeyondCode\LaravelWebSockets\Facades\StatisticsStore;
+use Longriders\LaravelWebSockets\Facades\StatisticsStore;
 use Illuminate\Console\Command;
 
 class CleanStatistics extends Command

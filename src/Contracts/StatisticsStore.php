@@ -1,6 +1,6 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Contracts;
+namespace Longriders\LaravelWebSockets\Contracts;
 
 use Carbon\Carbon;
 

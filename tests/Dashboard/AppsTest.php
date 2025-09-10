@@ -1,8 +1,8 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Test\Dashboard;
+namespace Longriders\LaravelWebSockets\Test\Dashboard;
 
-use BeyondCode\LaravelWebSockets\Apps\SQLiteAppManager;
+use Longriders\LaravelWebSockets\Apps\SQLiteAppManager;
 use BeyondCode\LaravelWebSockets\Test\Models\User;
 use BeyondCode\LaravelWebSockets\Test\TestCase;
 

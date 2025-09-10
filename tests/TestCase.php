@@ -1,8 +1,8 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Test;
+namespace Longriders\LaravelWebSockets\Test;
 
-use BeyondCode\LaravelWebSockets\Contracts\ChannelManager;
+use Longriders\LaravelWebSockets\Contracts\ChannelManager;
 use BeyondCode\LaravelWebSockets\Contracts\StatisticsCollector;
 use BeyondCode\LaravelWebSockets\Contracts\StatisticsStore;
 use BeyondCode\LaravelWebSockets\Facades\WebSocketRouter;

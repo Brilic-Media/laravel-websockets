@@ -1,6 +1,6 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Test\Dashboard;
+namespace Longriders\LaravelWebSockets\Test\Dashboard;
 
 use BeyondCode\LaravelWebSockets\Test\Models\User;
 use BeyondCode\LaravelWebSockets\Test\TestCase;

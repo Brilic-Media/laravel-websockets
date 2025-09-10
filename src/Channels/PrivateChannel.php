@@ -1,8 +1,8 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\Channels;
+namespace Longriders\LaravelWebSockets\Channels;
 
-use BeyondCode\LaravelWebSockets\Server\Exceptions\InvalidSignature;
+use Longriders\LaravelWebSockets\Server\Exceptions\InvalidSignature;
 use Ratchet\ConnectionInterface;
 use stdClass;
 

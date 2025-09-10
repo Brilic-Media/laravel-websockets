@@ -1,8 +1,8 @@
 <?php
 
-namespace BeyondCode\LaravelWebSockets\ChannelManagers;
+namespace Longriders\LaravelWebSockets\ChannelManagers;
 
-use BeyondCode\LaravelWebSockets\Cache\RedisLock;
+use Longriders\LaravelWebSockets\Cache\RedisLock;
 use BeyondCode\LaravelWebSockets\Channels\Channel;
 use BeyondCode\LaravelWebSockets\DashboardLogger;
 use BeyondCode\LaravelWebSockets\Helpers;
