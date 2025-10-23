@@ -4,6 +4,8 @@ namespace BrillicMedia\LaravelWebSockets;
 
 use React\Promise\PromiseInterface;
 
+use function React\Promise\resolve;
+
 class Helpers
 {
     /**
@@ -42,7 +44,7 @@ class Helpers
     public static function createFulfilledPromise($value): PromiseInterface
     {
         $resolver = config(
-            'websockets.promise_resolver', \React\Promise\FulfilledPromise::class
+            'websockets.promise_resolver', resolve(null)
         );
 
         return new $resolver($value, static::$loop);
