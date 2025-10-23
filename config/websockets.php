@@ -1,5 +1,7 @@
 <?php
 
+use function React\Promise\resolve;
+
 return [
 
     /*
@@ -321,6 +323,6 @@ return [
     |
     */
 
-    'promise_resolver' => \React\Promise\FulfilledPromise::class,
+    'promise_resolver' => resolve(null),
 
 ];
