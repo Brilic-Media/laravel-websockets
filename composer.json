@@ -1,5 +1,6 @@
 {
     "name": "brillicmedia/laravel-websockets",
+    "version": "0.1.0",
     "description": "An easy to launch a Pusher-compatible WebSockets server for Laravel.",
     "keywords": [
         "longriders",
