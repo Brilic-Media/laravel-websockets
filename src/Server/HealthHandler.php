@@ -1,6 +1,6 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Server;
+namespace BrillicMedia\LaravelWebSockets\Server;
 
 use Exception;
 use GuzzleHttp\Psr7\Message;

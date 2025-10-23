@@ -1,6 +1,6 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Server\Loggers;
+namespace BrillicMedia\LaravelWebSockets\Server\Loggers;
 
 use Symfony\Component\Console\Formatter\OutputFormatterStyle;
 use Symfony\Component\Console\Output\OutputInterface;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Dashboard\Http\Middleware;
+namespace BrillicMedia\LaravelWebSockets\Dashboard\Http\Middleware;
 
 use Illuminate\Support\Facades\Gate;
 

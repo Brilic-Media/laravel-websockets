@@ -1,6 +1,6 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Test\Mocks;
+namespace BrillicMedia\LaravelWebSockets\Test\Mocks;
 
 use Ratchet\RFC6455\Messaging\Message as BaseMessage;
 

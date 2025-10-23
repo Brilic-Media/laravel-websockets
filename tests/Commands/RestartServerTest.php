@@ -1,8 +1,8 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Test\Commands;
+namespace BrillicMedia\LaravelWebSockets\Test\Commands;
 
-use Longriders\LaravelWebSockets\Test\TestCase;
+use BrillicMedia\LaravelWebSockets\Test\TestCase;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\InteractsWithTime;
 
@@ -17,7 +17,7 @@ class RestartServerTest extends TestCase
         $this->artisan('websockets:restart');
 
         $this->assertGreaterThanOrEqual(
-            $start, Cache::get('beyondcode:websockets:restart', 0)
+            $start, Cache::get('brillicMedia:websockets:restart', 0)
         );
     }
 }

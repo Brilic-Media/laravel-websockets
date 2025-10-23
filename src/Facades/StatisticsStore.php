@@ -1,8 +1,8 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Facades;
+namespace BrillicMedia\LaravelWebSockets\Facades;
 
-use Longriders\LaravelWebSockets\Contracts\StatisticsStore as StatisticsStoreInterface;
+use BrillicMedia\LaravelWebSockets\Contracts\StatisticsStore as StatisticsStoreInterface;
 use Illuminate\Support\Facades\Facade;
 
 class StatisticsStore extends Facade

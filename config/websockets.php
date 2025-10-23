@@ -21,7 +21,7 @@ return [
 
         'middleware' => [
             'web',
-            \Longriders\LaravelWebSockets\Dashboard\Http\Middleware\Authorize::class,
+            \BrillicMedia\LaravelWebSockets\Dashboard\Http\Middleware\Authorize::class,
         ],
 
     ],
@@ -42,7 +42,7 @@ return [
         |
         */
 
-        'app' => \BeyondCode\LaravelWebSockets\Apps\ConfigAppManager::class,
+        'app' => \BrillicMedia\LaravelWebSockets\Apps\ConfigAppManager::class,
 
         /*
         |--------------------------------------------------------------------------
@@ -147,7 +147,7 @@ return [
                 |
                 */
 
-                'channel_manager' => \BeyondCode\LaravelWebSockets\ChannelManagers\LocalChannelManager::class,
+                'channel_manager' => \BrillicMedia\LaravelWebSockets\ChannelManagers\LocalChannelManager::class,
 
                 /*
                 |--------------------------------------------------------------------------
@@ -160,7 +160,7 @@ return [
                 |
                 */
 
-                'collector' => \BeyondCode\LaravelWebSockets\Statistics\Collectors\MemoryCollector::class,
+                'collector' => \BrillicMedia\LaravelWebSockets\Statistics\Collectors\MemoryCollector::class,
 
             ],
 
@@ -178,7 +178,7 @@ return [
                 |
                 */
 
-                'channel_manager' => \BeyondCode\LaravelWebSockets\ChannelManagers\RedisChannelManager::class,
+                'channel_manager' => \BrillicMedia\LaravelWebSockets\ChannelManagers\RedisChannelManager::class,
 
                 /*
                 |--------------------------------------------------------------------------
@@ -191,7 +191,7 @@ return [
                 |
                 */
 
-                'collector' => \BeyondCode\LaravelWebSockets\Statistics\Collectors\RedisCollector::class,
+                'collector' => \BrillicMedia\LaravelWebSockets\Statistics\Collectors\RedisCollector::class,
 
             ],
 
@@ -212,7 +212,7 @@ return [
         |
         */
 
-        'store' => \BeyondCode\LaravelWebSockets\Statistics\Stores\DatabaseStore::class,
+        'store' => \BrillicMedia\LaravelWebSockets\Statistics\Stores\DatabaseStore::class,
 
         /*
         |--------------------------------------------------------------------------
@@ -294,17 +294,17 @@ return [
 
     'handlers' => [
 
-        'websocket' => \BeyondCode\LaravelWebSockets\Server\WebSocketHandler::class,
+        'websocket' => \BrillicMedia\LaravelWebSockets\Server\WebSocketHandler::class,
 
-        'health' => \BeyondCode\LaravelWebSockets\Server\HealthHandler::class,
+        'health' => \BrillicMedia\LaravelWebSockets\Server\HealthHandler::class,
 
-        'trigger_event' => \BeyondCode\LaravelWebSockets\API\TriggerEvent::class,
+        'trigger_event' => \BrillicMedia\LaravelWebSockets\API\TriggerEvent::class,
 
-        'fetch_channels' => \BeyondCode\LaravelWebSockets\API\FetchChannels::class,
+        'fetch_channels' => \BrillicMedia\LaravelWebSockets\API\FetchChannels::class,
 
-        'fetch_channel' => \BeyondCode\LaravelWebSockets\API\FetchChannel::class,
+        'fetch_channel' => \BrillicMedia\LaravelWebSockets\API\FetchChannel::class,
 
-        'fetch_users' => \BeyondCode\LaravelWebSockets\API\FetchUsers::class,
+        'fetch_users' => \BrillicMedia\LaravelWebSockets\API\FetchUsers::class,
 
     ],
 

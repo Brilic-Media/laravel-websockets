@@ -1,9 +1,9 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Dashboard\Http\Controllers;
+namespace BrillicMedia\LaravelWebSockets\Dashboard\Http\Controllers;
 
-use Longriders\LaravelWebSockets\Contracts\AppManager;
-use Longriders\LaravelWebSockets\Dashboard\Http\Requests\StoreAppRequest;
+use BrillicMedia\LaravelWebSockets\Contracts\AppManager;
+use BrillicMedia\LaravelWebSockets\Dashboard\Http\Requests\StoreAppRequest;
 use Illuminate\Support\Str;
 use React\EventLoop\LoopInterface;
 
@@ -15,7 +15,7 @@ class StoreApp
      * Show the configured apps.
      *
      * @param  StoreAppRequest  $request
-     * @param  \Longriders\LaravelWebSockets\Contracts\AppManager  $apps
+     * @param  \BrillicMedia\LaravelWebSockets\Contracts\AppManager  $apps
      * @return void
      */
     public function __invoke(StoreAppRequest $request, AppManager $apps)

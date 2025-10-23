@@ -1,6 +1,6 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Contracts;
+namespace BrillicMedia\LaravelWebSockets\Contracts;
 
 interface PusherMessage
 {

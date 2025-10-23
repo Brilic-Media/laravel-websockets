@@ -1,6 +1,6 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Cache;
+namespace BrillicMedia\LaravelWebSockets\Cache;
 
 use Clue\React\Redis\Client;
 use Illuminate\Cache\LuaScripts;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Facades;
+namespace BrillicMedia\LaravelWebSockets\Facades;
 
-use Longriders\LaravelWebSockets\Contracts\StatisticsCollector as StatisticsCollectorInterface;
+use BrillicMedia\LaravelWebSockets\Contracts\StatisticsCollector as StatisticsCollectorInterface;
 use Illuminate\Support\Facades\Facade;
 
 class StatisticsCollector extends Facade

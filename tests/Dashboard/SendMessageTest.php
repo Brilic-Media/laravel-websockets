@@ -1,9 +1,9 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Test\Dashboard;
+namespace BrillicMedia\LaravelWebSockets\Test\Dashboard;
 
-use Longriders\LaravelWebSockets\Test\Models\User;
-use BeyondCode\LaravelWebSockets\Test\TestCase;
+use BrillicMedia\LaravelWebSockets\Test\Models\User;
+use BrillicMedia\LaravelWebSockets\Test\TestCase;
 
 class SendMessageTest extends TestCase
 {

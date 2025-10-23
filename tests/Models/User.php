@@ -1,6 +1,6 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Test\Models;
+namespace BrillicMedia\LaravelWebSockets\Test\Models;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 

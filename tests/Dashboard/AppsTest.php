@@ -1,10 +1,10 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Test\Dashboard;
+namespace BrillicMedia\LaravelWebSockets\Test\Dashboard;
 
-use Longriders\LaravelWebSockets\Apps\SQLiteAppManager;
-use BeyondCode\LaravelWebSockets\Test\Models\User;
-use BeyondCode\LaravelWebSockets\Test\TestCase;
+use BrillicMedia\LaravelWebSockets\Apps\SQLiteAppManager;
+use BrillicMedia\LaravelWebSockets\Test\Models\User;
+use BrillicMedia\LaravelWebSockets\Test\TestCase;
 
 class AppsTest extends TestCase
 {

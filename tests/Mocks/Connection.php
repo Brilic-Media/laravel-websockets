@@ -1,6 +1,6 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Test\Mocks;
+namespace BrillicMedia\LaravelWebSockets\Test\Mocks;
 
 use GuzzleHttp\Psr7\Request;
 use PHPUnit\Framework\Assert as PHPUnit;

@@ -13,12 +13,12 @@ For example, you can listen for events like when a new connection establishes or
 
 Below you will find a list of dispatched events:
 
-- `Longriders\LaravelWebSockets\Events\NewConnection` - when a connection successfully establishes on the server
-- `Longriders\LaravelWebSockets\Events\ConnectionClosed` - when a connection leaves the server
-- `Longriders\LaravelWebSockets\Events\SubscribedToChannel` - when a connection subscribes to a specific channel
-- `Longriders\LaravelWebSockets\Events\UnsubscribedFromChannel` - when a connection unsubscribes from a specific channel
-- `BeyondCode\LaravelWebSockets\Events\WebSocketMessageReceived` - when the server receives a message
-- `BeyondCode\LaravelWebSockets\EventsConnectionPonged` - when a connection pings to the server that it is still alive
+- `BrillicMedia\LaravelWebSockets\Events\NewConnection` - when a connection successfully establishes on the server
+- `BrillicMedia\LaravelWebSockets\Events\ConnectionClosed` - when a connection leaves the server
+- `BrillicMedia\LaravelWebSockets\Events\SubscribedToChannel` - when a connection subscribes to a specific channel
+- `BrillicMedia\LaravelWebSockets\Events\UnsubscribedFromChannel` - when a connection unsubscribes from a specific channel
+- `BrillicMedia\LaravelWebSockets\Events\WebSocketMessageReceived` - when the server receives a message
+- `BrillicMedia\LaravelWebSockets\EventsConnectionPonged` - when a connection pings to the server that it is still alive
 
 ## Queued Listeners
 
@@ -31,7 +31,7 @@ If set up, you can use the `async-redis` queue driver in your listeners:
 
 namespace App\Listeners;
 
-use BeyondCode\LaravelWebSockets\Events\NewConnection;
+use BrillicMedia\LaravelWebSockets\Events\NewConnection;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
 class HandleNewConnections implements ShouldQueue
@@ -75,7 +75,7 @@ The `EventServiceProvider` might look like this, registering the listeners that 
  * @var array
  */
 protected $listen = [
-    \BeyondCode\LaravelWebSockets\Events\NewConnection::class => [
+    \BrillicMedia\LaravelWebSockets\Events\NewConnection::class => [
         App\Listeners\HandleNewConnections::class,
     ],
 ];

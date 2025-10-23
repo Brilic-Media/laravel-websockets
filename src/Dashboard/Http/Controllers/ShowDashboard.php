@@ -1,9 +1,9 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Dashboard\Http\Controllers;
+namespace BrillicMedia\LaravelWebSockets\Dashboard\Http\Controllers;
 
-use Longriders\LaravelWebSockets\Contracts\AppManager;
-use Longriders\LaravelWebSockets\DashboardLogger;
+use BrillicMedia\LaravelWebSockets\Contracts\AppManager;
+use BrillicMedia\LaravelWebSockets\DashboardLogger;
 use Illuminate\Http\Request;
 use React\EventLoop\LoopInterface;
 
@@ -15,7 +15,7 @@ class ShowDashboard
      * Show the dashboard.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \Longriders\LaravelWebSockets\Contracts\AppManager  $apps
+     * @param  \BrillicMedia\LaravelWebSockets\Contracts\AppManager  $apps
      * @return void
      */
     public function __invoke(Request $request, AppManager $apps)

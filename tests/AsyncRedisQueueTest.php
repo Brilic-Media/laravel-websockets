@@ -1,8 +1,8 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Test;
+namespace BrillicMedia\LaravelWebSockets\Test;
 
-use Longriders\LaravelWebSockets\Queue\AsyncRedisConnector;
+use BrillicMedia\LaravelWebSockets\Queue\AsyncRedisConnector;
 use Illuminate\Queue\Queue;
 use Illuminate\Support\InteractsWithTime;
 use Mockery as m;

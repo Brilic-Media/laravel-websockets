@@ -1,6 +1,6 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Server;
+namespace BrillicMedia\LaravelWebSockets\Server;
 
 use Psr\Http\Message\RequestInterface;
 
