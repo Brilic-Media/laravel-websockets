@@ -1,15 +1,15 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Test;
+namespace BrillicMedia\LaravelWebSockets\Test;
 
-use Longriders\LaravelWebSockets\Contracts\ChannelManager;
-use BeyondCode\LaravelWebSockets\Contracts\StatisticsCollector;
-use BeyondCode\LaravelWebSockets\Contracts\StatisticsStore;
-use BeyondCode\LaravelWebSockets\Facades\WebSocketRouter;
-use BeyondCode\LaravelWebSockets\Helpers;
-use BeyondCode\LaravelWebSockets\Server\Loggers\HttpLogger;
-use BeyondCode\LaravelWebSockets\Server\Loggers\WebSocketsLogger;
-use BeyondCode\LaravelWebSockets\ServerFactory;
+use BrillicMedia\LaravelWebSockets\Contracts\ChannelManager;
+use BrillicMedia\LaravelWebSockets\Contracts\StatisticsCollector;
+use BrillicMedia\LaravelWebSockets\Contracts\StatisticsStore;
+use BrillicMedia\LaravelWebSockets\Facades\WebSocketRouter;
+use BrillicMedia\LaravelWebSockets\Helpers;
+use BrillicMedia\LaravelWebSockets\Server\Loggers\HttpLogger;
+use BrillicMedia\LaravelWebSockets\Server\Loggers\WebSocketsLogger;
+use BrillicMedia\LaravelWebSockets\ServerFactory;
 use Clue\React\Buzz\Browser;
 use GuzzleHttp\Psr7\Request;
 use Illuminate\Support\Facades\Redis;
@@ -44,28 +44,28 @@ abstract class TestCase extends Orchestra
     /**
      * A test Pusher server.
      *
-     * @var \BeyondCode\LaravelWebSockets\Server\WebSocketHandler
+     * @var \BrillicMedia\LaravelWebSockets\Server\WebSocketHandler
      */
     protected $pusherServer;
 
     /**
      * The test Channel manager.
      *
-     * @var \BeyondCode\LaravelWebSockets\Contracts\ChannelManager
+     * @var \BrillicMedia\LaravelWebSockets\Contracts\ChannelManager
      */
     protected $channelManager;
 
     /**
      * The test Channel manager.
      *
-     * @var \BeyondCode\LaravelWebSockets\Contracts\StatisticsCollector
+     * @var \BrillicMedia\LaravelWebSockets\Contracts\StatisticsCollector
      */
     protected $statisticsCollector;
 
     /**
      * The test Channel manager.
      *
-     * @var \BeyondCode\LaravelWebSockets\Contracts\StatisticsStore
+     * @var \BrillicMedia\LaravelWebSockets\Contracts\StatisticsStore
      */
     protected $statisticsStore;
 
@@ -163,7 +163,7 @@ abstract class TestCase extends Orchestra
     protected function getPackageProviders($app)
     {
         return [
-            \BeyondCode\LaravelWebSockets\WebSocketsServiceProvider::class,
+            \BrillicMedia\LaravelWebSockets\WebSocketsServiceProvider::class,
             TestServiceProvider::class,
         ];
     }
@@ -266,13 +266,13 @@ abstract class TestCase extends Orchestra
 
         $app['config']->set('websockets.replication.modes', [
             'local' => [
-                'channel_manager' => \BeyondCode\LaravelWebSockets\ChannelManagers\LocalChannelManager::class,
-                'collector' => \BeyondCode\LaravelWebSockets\Statistics\Collectors\MemoryCollector::class,
+                'channel_manager' => \BrillicMedia\LaravelWebSockets\ChannelManagers\LocalChannelManager::class,
+                'collector' => \BrillicMedia\LaravelWebSockets\Statistics\Collectors\MemoryCollector::class,
             ],
             'redis' => [
-                'channel_manager' => \BeyondCode\LaravelWebSockets\ChannelManagers\RedisChannelManager::class,
+                'channel_manager' => \BrillicMedia\LaravelWebSockets\ChannelManagers\RedisChannelManager::class,
                 'connection' => 'default',
-                'collector' => \BeyondCode\LaravelWebSockets\Statistics\Collectors\RedisCollector::class,
+                'collector' => \BrillicMedia\LaravelWebSockets\Statistics\Collectors\RedisCollector::class,
             ],
         ]);
     }
@@ -302,7 +302,7 @@ abstract class TestCase extends Orchestra
 
         $this->app['config']->set(
             'websockets.promise_resolver',
-            \BeyondCode\LaravelWebSockets\Test\Mocks\PromiseResolver::class
+            \BrillicMedia\LaravelWebSockets\Test\Mocks\PromiseResolver::class
         );
     }
 

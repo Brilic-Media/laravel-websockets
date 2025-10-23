@@ -1,8 +1,8 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Test;
+namespace BrillicMedia\LaravelWebSockets\Test;
 
-use Longriders\LaravelWebSockets\Server\HealthHandler;
+use BrillicMedia\LaravelWebSockets\Server\HealthHandler;
 use Illuminate\Support\Str;
 
 class HealthTest extends TestCase

@@ -1,9 +1,9 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Dashboard\Http\Controllers;
+namespace BrillicMedia\LaravelWebSockets\Dashboard\Http\Controllers;
 
-use Longriders\LaravelWebSockets\Concerns\PushesToPusher;
-use Longriders\LaravelWebSockets\Rules\AppId;
+use BrillicMedia\LaravelWebSockets\Concerns\PushesToPusher;
+use BrillicMedia\LaravelWebSockets\Rules\AppId;
 use Illuminate\Http\Request;
 use Throwable;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Test\Mocks;
+namespace BrillicMedia\LaravelWebSockets\Test\Mocks;
 
 use Clue\React\Redis\Factory;
 use Clue\Redis\Protocol\Factory as ProtocolFactory;

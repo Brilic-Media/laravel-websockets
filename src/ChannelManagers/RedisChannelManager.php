@@ -1,12 +1,12 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\ChannelManagers;
+namespace BrillicMedia\LaravelWebSockets\ChannelManagers;
 
-use Longriders\LaravelWebSockets\Cache\RedisLock;
-use BeyondCode\LaravelWebSockets\Channels\Channel;
-use BeyondCode\LaravelWebSockets\DashboardLogger;
-use BeyondCode\LaravelWebSockets\Helpers;
-use BeyondCode\LaravelWebSockets\Server\MockableConnection;
+use BrillicMedia\LaravelWebSockets\Cache\RedisLock;
+use BrillicMedia\LaravelWebSockets\Channels\Channel;
+use BrillicMedia\LaravelWebSockets\DashboardLogger;
+use BrillicMedia\LaravelWebSockets\Helpers;
+use BrillicMedia\LaravelWebSockets\Server\MockableConnection;
 use Carbon\Carbon;
 use Clue\React\Redis\Client;
 use Clue\React\Redis\Factory;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Longriders\LaravelWebSockets;
+namespace BrillicMedia\LaravelWebSockets;
 
-use Longriders\LaravelWebSockets\Contracts\ChannelManager;
+use BrillicMedia\LaravelWebSockets\Contracts\ChannelManager;
 
 class DashboardLogger
 {

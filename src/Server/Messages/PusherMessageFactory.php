@@ -1,9 +1,9 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Server\Messages;
+namespace BrillicMedia\LaravelWebSockets\Server\Messages;
 
-use Longriders\LaravelWebSockets\Contracts\ChannelManager;
-use Longriders\LaravelWebSockets\Contracts\PusherMessage;
+use BrillicMedia\LaravelWebSockets\Contracts\ChannelManager;
+use BrillicMedia\LaravelWebSockets\Contracts\PusherMessage;
 use Illuminate\Support\Str;
 use Ratchet\ConnectionInterface;
 use Ratchet\RFC6455\Messaging\MessageInterface;
@@ -15,7 +15,7 @@ class PusherMessageFactory
      *
      * @param  \Ratchet\RFC6455\Messaging\MessageInterface  $message
      * @param  \Ratchet\ConnectionInterface  $connection
-     * @param  \Longriders\LaravelWebSockets\Contracts\ChannelManager  $channelManager
+     * @param  \BrillicMedia\LaravelWebSockets\Contracts\ChannelManager  $channelManager
      * @return PusherMessage
      */
     public static function createForMessage(

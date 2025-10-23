@@ -1,8 +1,8 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Test;
+namespace BrillicMedia\LaravelWebSockets\Test;
 
-use Longriders\LaravelWebSockets\API\FetchChannels;
+use BrillicMedia\LaravelWebSockets\API\FetchChannels;
 use GuzzleHttp\Psr7\Request;
 use Illuminate\Http\JsonResponse;
 use Pusher\Pusher;

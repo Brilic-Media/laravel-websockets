@@ -1,8 +1,8 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Apps;
+namespace BrillicMedia\LaravelWebSockets\Apps;
 
-use Longriders\LaravelWebSockets\Contracts\AppManager;
+use BrillicMedia\LaravelWebSockets\Contracts\AppManager;
 use React\Promise\PromiseInterface;
 
 use function React\Promise\resolve as resolvePromise;
@@ -93,7 +93,7 @@ class ConfigAppManager implements AppManager
      * Map the app into an App instance.
      *
      * @param  array|null  $app
-     * @return \Longriders\LaravelWebSockets\Apps\App|null
+     * @return \BrillicMedia\LaravelWebSockets\Apps\App|null
      */
     protected function convertIntoApp(?array $appAttributes): ?App
     {

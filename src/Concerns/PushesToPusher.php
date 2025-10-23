@@ -1,6 +1,6 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Concerns;
+namespace BrillicMedia\LaravelWebSockets\Concerns;
 
 use Illuminate\Broadcasting\Broadcasters\PusherBroadcaster;
 use Pusher\Pusher;

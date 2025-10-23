@@ -1,6 +1,6 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Console\Commands;
+namespace BrillicMedia\LaravelWebSockets\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Cache;
@@ -32,7 +32,7 @@ class RestartServer extends Command
     public function handle()
     {
         Cache::forever(
-            'beyondcode:websockets:restart',
+            'BrillicMedia:websockets:restart',
             $this->currentTime()
         );
 

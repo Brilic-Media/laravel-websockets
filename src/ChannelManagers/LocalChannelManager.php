@@ -1,13 +1,13 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\ChannelManagers;
+namespace BrillicMedia\LaravelWebSockets\ChannelManagers;
 
-use Longriders\LaravelWebSockets\Cache\ArrayLock;
-use BeyondCode\LaravelWebSockets\Channels\Channel;
-use BeyondCode\LaravelWebSockets\Channels\PresenceChannel;
-use BeyondCode\LaravelWebSockets\Channels\PrivateChannel;
-use BeyondCode\LaravelWebSockets\Contracts\ChannelManager;
-use BeyondCode\LaravelWebSockets\Helpers;
+use BrillicMedia\LaravelWebSockets\Cache\ArrayLock;
+use BrillicMedia\LaravelWebSockets\Channels\Channel;
+use BrillicMedia\LaravelWebSockets\Channels\PresenceChannel;
+use BrillicMedia\LaravelWebSockets\Channels\PrivateChannel;
+use BrillicMedia\LaravelWebSockets\Contracts\ChannelManager;
+use BrillicMedia\LaravelWebSockets\Helpers;
 use Carbon\Carbon;
 use Illuminate\Cache\ArrayStore;
 use Illuminate\Support\Str;
@@ -88,7 +88,7 @@ class LocalChannelManager implements ChannelManager
      *
      * @param  string|int  $appId
      * @param  string  $channel
-     * @return null|BeyondCode\LaravelWebSockets\Channels\Channel
+     * @return null|BrillicMedia\LaravelWebSockets\Channels\Channel
      */
     public function find($appId, string $channel)
     {
@@ -100,7 +100,7 @@ class LocalChannelManager implements ChannelManager
      *
      * @param  string|int  $appId
      * @param  string  $channel
-     * @return BeyondCode\LaravelWebSockets\Channels\Channel
+     * @return BrillicMedia\LaravelWebSockets\Channels\Channel
      */
     public function findOrCreate($appId, string $channel)
     {

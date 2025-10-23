@@ -1,9 +1,9 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Statistics\Collectors;
+namespace BrillicMedia\LaravelWebSockets\Statistics\Collectors;
 
-use Longriders\LaravelWebSockets\Helpers;
-use Longriders\LaravelWebSockets\Statistics\Statistic;
+use BrillicMedia\LaravelWebSockets\Helpers;
+use BrillicMedia\LaravelWebSockets\Statistics\Statistic;
 use Illuminate\Cache\RedisLock;
 use Illuminate\Support\Facades\Redis;
 use React\Promise\PromiseInterface;
@@ -235,7 +235,7 @@ class RedisCollector extends MemoryCollector
      * Get the saved statistics for an app.
      *
      * @param  string|int  $appId
-     * @return PromiseInterface[\Longriders\LaravelWebSockets\Statistics\Statistic|null]
+     * @return PromiseInterface[\BrillicMedia\LaravelWebSockets\Statistics\Statistic|null]
      */
     public function getAppStatistics($appId): PromiseInterface
     {
@@ -361,7 +361,7 @@ class RedisCollector extends MemoryCollector
      *
      * @param  string|int  $appId
      * @param  array  $stats
-     * @return \Longriders\LaravelWebSockets\Statistics\Statistic
+     * @return \BrillicMedia\LaravelWebSockets\Statistics\Statistic
      */
     protected function arrayToStatisticInstance($appId, array $stats)
     {

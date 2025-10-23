@@ -1,8 +1,8 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Apps;
+namespace BrillicMedia\LaravelWebSockets\Apps;
 
-use Longriders\LaravelWebSockets\Contracts\AppManager;
+use BrillicMedia\LaravelWebSockets\Contracts\AppManager;
 use React\Promise\PromiseInterface;
 
 class App

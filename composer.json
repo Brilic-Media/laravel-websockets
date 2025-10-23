@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "description": "An easy to launch a Pusher-compatible WebSockets server for Laravel.",
     "keywords": [
-        "longriders",
+        "BrillicMedia",
         "laravel-websockets",
         "laravel",
         "php"
@@ -30,7 +30,7 @@
         },
         {
             "name": "Oleg Skonnikov",
-            "homepage": "https://longriders.ru",
+            "homepage": "https://BrillicMedia.ru",
             "role": "Developer"
         }
     ],
@@ -63,12 +63,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Longriders\\LaravelWebSockets\\": "src/"
+            "BrillicMedia\\LaravelWebSockets\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Longriders\\LaravelWebSockets\\Test\\": "tests"
+            "BrillicMedia\\LaravelWebSockets\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -82,10 +82,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Longriders\\LaravelWebSockets\\WebSocketsServiceProvider"
+                "BrillicMedia\\LaravelWebSockets\\WebSocketsServiceProvider"
             ],
             "aliases": {
-                "WebSocketRouter": "Longriders\\LaravelWebSockets\\Facades\\WebSocketRouter"
+                "WebSocketRouter": "BrillicMedia\\LaravelWebSockets\\Facades\\WebSocketRouter"
             }
         }
     }

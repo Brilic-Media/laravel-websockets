@@ -1,6 +1,6 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Facades;
+namespace BrillicMedia\LaravelWebSockets\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

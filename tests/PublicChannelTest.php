@@ -1,8 +1,8 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Test;
+namespace BrillicMedia\LaravelWebSockets\Test;
 
-use Longriders\LaravelWebSockets\API\TriggerEvent;
+use BrillicMedia\LaravelWebSockets\API\TriggerEvent;
 use GuzzleHttp\Psr7\Request;
 use Illuminate\Http\JsonResponse;
 use Pusher\Pusher;

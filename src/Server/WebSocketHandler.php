@@ -1,16 +1,16 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Server;
+namespace BrillicMedia\LaravelWebSockets\Server;
 
-use Longriders\LaravelWebSockets\Apps\App;
-use Longriders\LaravelWebSockets\Contracts\ChannelManager;
-use Longriders\LaravelWebSockets\DashboardLogger;
-use Longriders\LaravelWebSockets\Events\ConnectionClosed;
-use Longriders\LaravelWebSockets\Events\NewConnection;
-use Longriders\LaravelWebSockets\Events\WebSocketMessageReceived;
-use Longriders\LaravelWebSockets\Facades\StatisticsCollector;
-use Longriders\LaravelWebSockets\Helpers;
-use Longriders\LaravelWebSockets\Server\Exceptions\WebSocketException;
+use BrillicMedia\LaravelWebSockets\Apps\App;
+use BrillicMedia\LaravelWebSockets\Contracts\ChannelManager;
+use BrillicMedia\LaravelWebSockets\DashboardLogger;
+use BrillicMedia\LaravelWebSockets\Events\ConnectionClosed;
+use BrillicMedia\LaravelWebSockets\Events\NewConnection;
+use BrillicMedia\LaravelWebSockets\Events\WebSocketMessageReceived;
+use BrillicMedia\LaravelWebSockets\Facades\StatisticsCollector;
+use BrillicMedia\LaravelWebSockets\Helpers;
+use BrillicMedia\LaravelWebSockets\Server\Exceptions\WebSocketException;
 use Exception;
 use Ratchet\ConnectionInterface;
 use Ratchet\RFC6455\Messaging\MessageInterface;
@@ -30,7 +30,7 @@ class WebSocketHandler implements MessageComponentInterface
     /**
      * Initialize a new handler.
      *
-     * @param  \Longriders\LaravelWebSockets\Contracts\ChannelManager  $channelManager
+     * @param  \BrillicMedia\LaravelWebSockets\Contracts\ChannelManager  $channelManager
      * @return void
      */
     public function __construct(ChannelManager $channelManager)

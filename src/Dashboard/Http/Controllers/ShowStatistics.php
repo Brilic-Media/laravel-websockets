@@ -1,8 +1,8 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Dashboard\Http\Controllers;
+namespace BrillicMedia\LaravelWebSockets\Dashboard\Http\Controllers;
 
-use Longriders\LaravelWebSockets\Facades\StatisticsStore;
+use BrillicMedia\LaravelWebSockets\Facades\StatisticsStore;
 use Illuminate\Http\Request;
 
 class ShowStatistics
