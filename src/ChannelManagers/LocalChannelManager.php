@@ -1,8 +1,8 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\ChannelManagers;
+namespace BrillicMedia\LaravelWebSockets\ChannelManagers;
 
-use Longriders\LaravelWebSockets\Cache\ArrayLock;
+use BrillicMedia\LaravelWebSockets\Cache\ArrayLock;
 use BeyondCode\LaravelWebSockets\Channels\Channel;
 use BeyondCode\LaravelWebSockets\Channels\PresenceChannel;
 use BeyondCode\LaravelWebSockets\Channels\PrivateChannel;

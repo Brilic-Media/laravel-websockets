@@ -1,12 +1,12 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Statistics\Collectors;
+namespace BrillicMedia\LaravelWebSockets\Statistics\Collectors;
 
-use Longriders\LaravelWebSockets\Contracts\ChannelManager;
-use Longriders\LaravelWebSockets\Contracts\StatisticsCollector;
-use Longriders\LaravelWebSockets\Facades\StatisticsStore;
-use Longriders\LaravelWebSockets\Helpers;
-use Longriders\LaravelWebSockets\Statistics\Statistic;
+use BrillicMedia\LaravelWebSockets\Contracts\ChannelManager;
+use BrillicMedia\LaravelWebSockets\Contracts\StatisticsCollector;
+use BrillicMedia\LaravelWebSockets\Facades\StatisticsStore;
+use BrillicMedia\LaravelWebSockets\Helpers;
+use BrillicMedia\LaravelWebSockets\Statistics\Statistic;
 use React\Promise\PromiseInterface;
 
 class MemoryCollector implements StatisticsCollector
@@ -21,7 +21,7 @@ class MemoryCollector implements StatisticsCollector
     /**
      * The Channel manager.
      *
-     * @var \Longriders\LaravelWebSockets\Contracts\ChannelManager
+     * @var \BrillicMedia\LaravelWebSockets\Contracts\ChannelManager
      */
     protected $channelManager;
 
@@ -141,7 +141,7 @@ class MemoryCollector implements StatisticsCollector
      * Get the saved statistics for an app.
      *
      * @param  string|int  $appId
-     * @return PromiseInterface[\Longriders\LaravelWebSockets\Statistics\Statistic|null]
+     * @return PromiseInterface[\BrillicMedia\LaravelWebSockets\Statistics\Statistic|null]
      */
     public function getAppStatistics($appId): PromiseInterface
     {
@@ -166,7 +166,7 @@ class MemoryCollector implements StatisticsCollector
      * Find or create a defined statistic for an app.
      *
      * @param  string|int  $appId
-     * @return \Longriders\LaravelWebSockets\Statistics\Statistic
+     * @return \BrillicMedia\LaravelWebSockets\Statistics\Statistic
      */
     protected function findOrMake($appId): Statistic
     {
@@ -180,7 +180,7 @@ class MemoryCollector implements StatisticsCollector
     /**
      * Create a new record using the Statistic Store.
      *
-     * @param  \Longriders\LaravelWebSockets\Statistics\Statistic  $statistic
+     * @param  \BrillicMedia\LaravelWebSockets\Statistics\Statistic  $statistic
      * @param  mixed  $appId
      * @return void
      */

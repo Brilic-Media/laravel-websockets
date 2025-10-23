@@ -1,11 +1,11 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Test\Apps;
+namespace BrillicMedia\LaravelWebSockets\Test\Apps;
 
-use Longriders\LaravelWebSockets\Apps\App;
-use Longriders\LaravelWebSockets\Apps\ConfigAppManager;
-use Longriders\LaravelWebSockets\Contracts\AppManager;
-use Longriders\LaravelWebSockets\Test\TestCase;
+use BrillicMedia\LaravelWebSockets\Apps\App;
+use BrillicMedia\LaravelWebSockets\Apps\ConfigAppManager;
+use BrillicMedia\LaravelWebSockets\Contracts\AppManager;
+use BrillicMedia\LaravelWebSockets\Test\TestCase;
 
 class ConfigAppManagerTest extends TestCase
 {

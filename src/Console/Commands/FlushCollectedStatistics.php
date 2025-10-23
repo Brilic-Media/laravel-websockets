@@ -1,8 +1,8 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Console\Commands;
+namespace BrillicMedia\LaravelWebSockets\Console\Commands;
 
-use Longriders\LaravelWebSockets\Facades\StatisticsCollector;
+use BrillicMedia\LaravelWebSockets\Facades\StatisticsCollector;
 use Illuminate\Console\Command;
 
 class FlushCollectedStatistics extends Command

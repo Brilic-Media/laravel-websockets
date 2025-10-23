@@ -1,6 +1,6 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\API;
+namespace BrillicMedia\LaravelWebSockets\API;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;

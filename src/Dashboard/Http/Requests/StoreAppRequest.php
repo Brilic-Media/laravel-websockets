@@ -1,6 +1,6 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Dashboard\Http\Requests;
+namespace BrillicMedia\LaravelWebSockets\Dashboard\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

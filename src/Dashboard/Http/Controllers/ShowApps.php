@@ -1,8 +1,8 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Dashboard\Http\Controllers;
+namespace BrillicMedia\LaravelWebSockets\Dashboard\Http\Controllers;
 
-use Longriders\LaravelWebSockets\Contracts\AppManager;
+use BrillicMedia\LaravelWebSockets\Contracts\AppManager;
 use Illuminate\Http\Request;
 use React\EventLoop\LoopInterface;
 
@@ -14,7 +14,7 @@ class ShowApps
      * Show the configured apps.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \Longriders\LaravelWebSockets\Contracts\AppManager  $apps
+     * @param  \BrillicMedia\LaravelWebSockets\Contracts\AppManager  $apps
      * @return void
      */
     public function __invoke(Request $request, AppManager $apps)

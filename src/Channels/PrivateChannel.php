@@ -1,8 +1,8 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Channels;
+namespace BrillicMedia\LaravelWebSockets\Channels;
 
-use Longriders\LaravelWebSockets\Server\Exceptions\InvalidSignature;
+use BrillicMedia\LaravelWebSockets\Server\Exceptions\InvalidSignature;
 use Ratchet\ConnectionInterface;
 use stdClass;
 

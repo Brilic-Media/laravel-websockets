@@ -1,8 +1,8 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Test\Commands;
+namespace BrillicMedia\LaravelWebSockets\Test\Commands;
 
-use Longriders\LaravelWebSockets\Test\TestCase;
+use BrillicMedia\LaravelWebSockets\Test\TestCase;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\InteractsWithTime;
 

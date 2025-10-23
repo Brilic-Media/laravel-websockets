@@ -1,6 +1,6 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Test\Handlers;
+namespace BrillicMedia\LaravelWebSockets\Test\Handlers;
 
 use Exception;
 use Ratchet\ConnectionInterface;

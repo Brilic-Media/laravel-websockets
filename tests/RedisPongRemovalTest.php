@@ -1,6 +1,6 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Test;
+namespace BrillicMedia\LaravelWebSockets\Test;
 
 use Carbon\Carbon;
 

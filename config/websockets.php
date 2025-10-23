@@ -21,7 +21,7 @@ return [
 
         'middleware' => [
             'web',
-            \Longriders\LaravelWebSockets\Dashboard\Http\Middleware\Authorize::class,
+            \BrillicMedia\LaravelWebSockets\Dashboard\Http\Middleware\Authorize::class,
         ],
 
     ],

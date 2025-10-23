@@ -1,8 +1,8 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Statistics;
+namespace BrillicMedia\LaravelWebSockets\Statistics;
 
-use Longriders\LaravelWebSockets\Apps\App;
+use BrillicMedia\LaravelWebSockets\Apps\App;
 use React\Promise\Deferred;
 use React\Promise\PromiseInterface;
 
@@ -58,7 +58,7 @@ class Statistic
      * Create a new statistic instance.
      *
      * @param  string|int  $appId
-     * @return \Longriders\LaravelWebSockets\Statistics\Statistic
+     * @return \BrillicMedia\LaravelWebSockets\Statistics\Statistic
      */
     public static function new($appId)
     {

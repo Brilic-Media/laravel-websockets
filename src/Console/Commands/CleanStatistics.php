@@ -1,8 +1,8 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Console\Commands;
+namespace BrillicMedia\LaravelWebSockets\Console\Commands;
 
-use Longriders\LaravelWebSockets\Facades\StatisticsStore;
+use BrillicMedia\LaravelWebSockets\Facades\StatisticsStore;
 use Illuminate\Console\Command;
 
 class CleanStatistics extends Command

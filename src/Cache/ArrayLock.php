@@ -1,8 +1,8 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Cache;
+namespace BrillicMedia\LaravelWebSockets\Cache;
 
-use Longriders\LaravelWebSockets\Helpers;
+use BrillicMedia\LaravelWebSockets\Helpers;
 use Illuminate\Cache\ArrayLock as LaravelLock;
 use React\Promise\PromiseInterface;
 

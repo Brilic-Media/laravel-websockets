@@ -1,6 +1,6 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Contracts;
+namespace BrillicMedia\LaravelWebSockets\Contracts;
 
 use Ratchet\ConnectionInterface;
 use React\EventLoop\LoopInterface;
@@ -23,7 +23,7 @@ interface ChannelManager
      *
      * @param  string|int  $appId
      * @param  string  $channel
-     * @return null|Longriders\LaravelWebSockets\Channels\Channel
+     * @return null|BrillicMedia\LaravelWebSockets\Channels\Channel
      */
     public function find($appId, string $channel);
 
@@ -32,7 +32,7 @@ interface ChannelManager
      *
      * @param  string|int  $appId
      * @param  string  $channel
-     * @return Longriders\LaravelWebSockets\Channels\Channel
+     * @return BrillicMedia\LaravelWebSockets\Channels\Channel
      */
     public function findOrCreate($appId, string $channel);
 

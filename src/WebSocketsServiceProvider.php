@@ -1,18 +1,18 @@
 <?php
 
-namespace Longriders\LaravelWebSockets;
+namespace BrillicMedia\LaravelWebSockets;
 
-use Longriders\LaravelWebSockets\Contracts\StatisticsCollector;
-use Longriders\LaravelWebSockets\Contracts\StatisticsStore;
-use Longriders\LaravelWebSockets\Dashboard\Http\Controllers\AuthenticateDashboard;
-use Longriders\LaravelWebSockets\Dashboard\Http\Controllers\SendMessage;
-use Longriders\LaravelWebSockets\Dashboard\Http\Controllers\ShowApps;
-use Longriders\LaravelWebSockets\Dashboard\Http\Controllers\ShowDashboard;
-use Longriders\LaravelWebSockets\Dashboard\Http\Controllers\ShowStatistics;
-use Longriders\LaravelWebSockets\Dashboard\Http\Controllers\StoreApp;
-use Longriders\LaravelWebSockets\Dashboard\Http\Middleware\Authorize as AuthorizeDashboard;
-use Longriders\LaravelWebSockets\Queue\AsyncRedisConnector;
-use Longriders\LaravelWebSockets\Server\Router;
+use BrillicMedia\LaravelWebSockets\Contracts\StatisticsCollector;
+use BrillicMedia\LaravelWebSockets\Contracts\StatisticsStore;
+use BrillicMedia\LaravelWebSockets\Dashboard\Http\Controllers\AuthenticateDashboard;
+use BrillicMedia\LaravelWebSockets\Dashboard\Http\Controllers\SendMessage;
+use BrillicMedia\LaravelWebSockets\Dashboard\Http\Controllers\ShowApps;
+use BrillicMedia\LaravelWebSockets\Dashboard\Http\Controllers\ShowDashboard;
+use BrillicMedia\LaravelWebSockets\Dashboard\Http\Controllers\ShowStatistics;
+use BrillicMedia\LaravelWebSockets\Dashboard\Http\Controllers\StoreApp;
+use BrillicMedia\LaravelWebSockets\Dashboard\Http\Middleware\Authorize as AuthorizeDashboard;
+use BrillicMedia\LaravelWebSockets\Queue\AsyncRedisConnector;
+use BrillicMedia\LaravelWebSockets\Server\Router;
 use Clue\React\SQLite\DatabaseInterface;
 use Clue\React\SQLite\Factory as SQLiteFactory;
 use Illuminate\Support\Facades\Gate;

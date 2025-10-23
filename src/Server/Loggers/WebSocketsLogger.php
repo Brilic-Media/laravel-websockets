@@ -1,8 +1,8 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Server\Loggers;
+namespace BrillicMedia\LaravelWebSockets\Server\Loggers;
 
-use Longriders\LaravelWebSockets\Server\QueryParameters;
+use BrillicMedia\LaravelWebSockets\Server\QueryParameters;
 use Exception;
 use Ratchet\ConnectionInterface;
 use Ratchet\RFC6455\Messaging\MessageInterface;

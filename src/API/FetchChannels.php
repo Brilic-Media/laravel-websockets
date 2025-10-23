@@ -1,8 +1,8 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\API;
+namespace BrillicMedia\LaravelWebSockets\API;
 
-use Longriders\LaravelWebSockets\Channels\Channel;
+use BrillicMedia\LaravelWebSockets\Channels\Channel;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use stdClass;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Statistics\Stores;
+namespace BrillicMedia\LaravelWebSockets\Statistics\Stores;
 
-use Longriders\LaravelWebSockets\Contracts\StatisticsStore;
+use BrillicMedia\LaravelWebSockets\Contracts\StatisticsStore;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
@@ -14,7 +14,7 @@ class DatabaseStore implements StatisticsStore
      *
      * @var string
      */
-    public static $model = \Longriders\LaravelWebSockets\Models\WebSocketsStatisticsEntry::class;
+    public static $model = \BrillicMedia\LaravelWebSockets\Models\WebSocketsStatisticsEntry::class;
 
     /**
      * Store a new record in the database and return

@@ -11,20 +11,20 @@ Depending on your setup, you might have your app configuration stored elsewhere 
 
 > Make sure that you do **not** perform any IO blocking tasks in your `AppManager`, as they will interfere with the asynchronous WebSocket execution.
 
-In order to create your custom `AppManager`, create a class that implements the `Longriders\LaravelWebSockets\Contracts\AppManager` interface.
+In order to create your custom `AppManager`, create a class that implements the `BrillicMedia\LaravelWebSockets\Contracts\AppManager` interface.
 
 This is what it looks like:
 
 ```php
 interface AppManager
 {
-    /**  @return array[Longriders\LaravelWebSockets\Apps\App] */
+    /**  @return array[BrillicMedia\LaravelWebSockets\Apps\App] */
     public function all(): array;
 
-    /**  @return Longriders\LaravelWebSockets\Apps\App */
+    /**  @return BrillicMedia\LaravelWebSockets\Apps\App */
     public function findById($appId): ?App;
 
-    /**  @return Longriders\LaravelWebSockets\Apps\App */
+    /**  @return BrillicMedia\LaravelWebSockets\Apps\App */
     public function findByKey($appKey): ?App;
 
     /**  @return BeyondCode\LaravelWebSockets\Apps\App */

@@ -1,8 +1,8 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\Test;
+namespace BrillicMedia\LaravelWebSockets\Test;
 
-use Longriders\LaravelWebSockets\API\FetchUsers;
+use BrillicMedia\LaravelWebSockets\API\FetchUsers;
 use GuzzleHttp\Psr7\Request;
 use Pusher\Pusher;
 

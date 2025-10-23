@@ -1,9 +1,9 @@
 <?php
 
-namespace Longriders\LaravelWebSockets\API;
+namespace BrillicMedia\LaravelWebSockets\API;
 
-use Longriders\LaravelWebSockets\DashboardLogger;
-use Longriders\LaravelWebSockets\Facades\StatisticsCollector;
+use BrillicMedia\LaravelWebSockets\DashboardLogger;
+use BrillicMedia\LaravelWebSockets\Facades\StatisticsCollector;
 use Illuminate\Http\Request;
 use React\Promise\Deferred;
 use React\Promise\PromiseInterface;
